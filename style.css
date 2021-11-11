@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+main {
+    width: 1200px;
+    height: 700px;
+    background-image: url('https://images.hdqwalls.com/download/8-bit-pixel-art-city-2o-1280x720.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+h1{
+    text-align: center;
+    front-size: 50px;
+    color:aliceblue;
+    margin-top: 100px
+}
+
+button{
+    box-sizing: border-box;
+    margin: 50px;
+    border: 5px;
+    padding: 30px;
+    border-radius: 0%;
+}
