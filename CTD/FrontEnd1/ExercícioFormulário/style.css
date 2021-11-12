@@ -1,0 +1,55 @@
+*{
+   box-sizing: border-box;
+   margin:0;
+   background-color: rgb(219, 239, 251);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    background-image: url('https://picsum.photos/100/100?grayscale');
+    background-position: right;
+    background-repeat: no-repeat;
+    }
+
+h1 {
+    margin: 20px;
+    color: rgb(99, 18, 250);
+    text-align: center;
+}
+
+p {
+    text-align: center;   
+}
+
+fieldset {
+    margin: 30px;
+    border: 4px rgb(108, 83, 251) solid;
+    width: fit-content; /* ajusta conforme o site*/
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;    
+}
+
+
+div {
+    margin:10px
+}
+
+button {
+ padding: 10px;
+ margin: 10px;
+ background-color: rgb(0, 50, 83);
+ color: white;
+ font-size: 20px;
+ border: 0;
+ border-radius: 60px;
+}
+
+.buttons-div {
+    text-align: center;
+    
+    /*float: right;*/ /* os botões escorregam para direita*/
+}
+

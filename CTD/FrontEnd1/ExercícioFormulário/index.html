@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+   <div class="image"> Logo </div>
+     <h1>Formulário</h1>
+    <p> Deixe sua dúvida aqui </p>
+
+<from action="/cadastrar" name="Cadastro-usuario">
+    <fieldset> <!--um conjunto/grupo de campos-->
+        <legend> Dados Pessoais</legend>
+     <div> 
+        <label for= "nome">Nome: </label>
+        <input type="nome" name="nome" id="nome" placeholder= "nome">
+     </div>
+
+     <div> 
+        <label for= "Email">Email: </label>
+        <input type="email" name="email" id="email" placeholder= "email">
+     </div>
+
+     <div> 
+        <label for= "pwd">Senha: </label>
+        <input type="password" name="pwd" id="pwd" placeholder= "pwd">
+     </div> 
+
+     <div> 
+        <label for= "idade">Idade: </label>
+        <input type="number" name="number" id="number" placeholder= "number"> 
+     </div> 
+
+      
+    </fieldset>
+
+
+    <from action="/cadastrar" name="Cadastro-usuario">
+        <fieldset> <!--um conjunto/grupo de campos-->
+            <legend> Inscrição </legend>
+         <div> 
+            <label for= "curso">Curso: </label>
+            <select name="curso id= "curso"> 
+            <option value="1">CTD</option>
+            <option value="2">Prog Imperativa</option>
+            <option value="3">CTD</option>
+            <option value="4">CTD</option>
+        </select> 
+            
+         
+         </div> 
+ 
+         <div>
+             <label for= "minibio"> Minibio de apresentação </label>
+             <textarea name ="minibio" id="minibio" cols= "30" rows="5" placeholder="Insira sua apresentação aqui"> </textarea>
+         </div>
+          
+        </fieldset>
+</from>
+   <div>
+      <button type= "reset"> Reset </button>
+      <button type="submit"> Submit </button>
+   </div>  
+</body>
+</html>
