@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:ital,wght@1,100&display=swap');;
+
+
+html* {
+    font-family: 'Roboto', san-serif;
+    margin: 0;
+    padding:0;
+  }
+
+#titulo{
+    color:aliceblue;
+    text-align:center;
+    font-size:32px;
+    font-style: oblique;
+    font-weight:200;
+    background-color: rgb(2, 2, 87);
+    padding: 10px;
+}
+
+#resumo {
+    padding:20px;
+    color:rgb(251, 251, 251);
+    text-align: center;
+    font-size:20px;
+    font-style: oblique;
+}
+
+ul {
+    
+    text-align:left;
+    font-size: 20px;
+    margin: 20px 0px;
+    width: 700px;
+
+ 
+}
+
+#corpo {
+    height:700px;
+    width:100%;
+    background-image: url('/image/brasilia1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#principal {
+    text-align:center;
+}
+
+.subtitulo {
+
+    text-align: left;
+    font-family: 'Roboto', san-serif;
+    font-size: 25px;
+    padding: 0px; 
+    font-weight: 200;
+
+ }
+
+ #rodape {
+     text-align: center;
+     padding:20px;
+ }
+ .icones{
+     margin:20px;
+     width:70px;
+     height:70px
+ }
